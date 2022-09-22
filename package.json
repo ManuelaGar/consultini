@@ -1,0 +1,29 @@
+{
+  "name": "consultini",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^16.0.4"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
